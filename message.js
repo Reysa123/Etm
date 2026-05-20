@@ -8,7 +8,8 @@ var g_lang_combobox = {
     th: "ภาษาไทย",
     tr: "Türkçe",
     ru: "Русский",
-    uk: "українська"
+    uk: "українська",
+    id: "Indonesia"
 };
 
 var g_wiring_search = {
@@ -21,7 +22,8 @@ var g_wiring_search = {
     th: "<<ผังวงจรไฟฟ้า>>",
     tr: "<<Wiring Diagram>>",
     ru: "<<Wiring Diagram>>",
-    uk: "<<Wiring Diagram>>"
+    uk: "<<Wiring Diagram>>",
+    id: "<<Diagram Kelistrikan>>"
 };
 
 var g_connector_search = {
@@ -34,7 +36,8 @@ var g_connector_search = {
     th: "<<ปลั๊กต่อ>>",
     tr: "<<Connector>>",
     ru: "<<Connector>>",
-    uk: "<<Connector>>"
+    uk: "<<Connector>>",
+    id: "<<Konektor>>"
 };
 
 var g_location_search = {
@@ -47,7 +50,8 @@ var g_location_search = {
     th: "<<แผนภาพตำแหน่ง>>",
     tr: "<<Location Diagram>>",
     ru: "<<Location Diagram>>",
-    uk: "<<Location Diagram>>"
+    uk: "<<Location Diagram>>",
+    id: "<<Diagram Lokasi>>"
 };
 
 var g_wiring_chk = {
@@ -60,7 +64,8 @@ var g_wiring_chk = {
     th: "การเดินสายไฟ",
     tr: "Wiring",
     ru: "Wiring",
-    uk: "Wiring"
+    uk: "Wiring",
+    id: "Kelistrikan"
 };
 
 var g_connector_chk = {
@@ -73,7 +78,8 @@ var g_connector_chk = {
     th: "ปลั๊กต่อ",
     tr: "Konektör",
     ru: "Connector",
-    uk: "Connector"
+    uk: "Connector",
+    id: "Konektor"
 };
 
 var g_location_chk = {
@@ -86,7 +92,9 @@ var g_location_chk = {
     th: "ที่",
     tr: "Location",
     ru: "Location",
-    uk: "Location"
+    uk: "Location",
+    id: "Lokasi"
+    
 };
 
 var g_search_option = {
@@ -99,7 +107,7 @@ var g_search_option = {
     th: "การจับคู่ที่ถูกต้อง",
     tr: "Perfect Matching",
     ru: "Perfect Matching",
-    uk: "Perfect Matching"
+    uk: "Kesamaan"
 };
 
 var g_btn_home = {
@@ -112,7 +120,8 @@ var g_btn_home = {
     th: "หน้าแรก",
     tr: "HOME",
     ru: "HOME",
-    uk: "HOME"
+    uk: "HOME",
+    id: "BERANDA"
 };
 
 var g_btn_page_zoom_in = {
@@ -125,7 +134,8 @@ var g_btn_page_zoom_in = {
     th: "Enlarge frame",
     tr: "Enlarge frame",
     ru: "Enlarge frame",
-    uk: "Enlarge frame"
+    uk: "Enlarge frame",
+    id: "Bingkai penuh"
 };
 
 var g_btn_page_zoom_out = {
@@ -138,7 +148,8 @@ var g_btn_page_zoom_out = {
     th: "Shrink frame",
     tr: "Shrink frame",
     ru: "Shrink frame",
-    uk: "Shrink frame"
+    uk: "Shrink frame",
+    id: "Bingkai minimal"
 };
 
 var g_btn_page_actual = {
@@ -151,7 +162,8 @@ var g_btn_page_actual = {
     th: "Frame 100% ",
     tr: "Frame 100% ",
     ru: "Frame 100% ",
-    uk: "Frame 100% "
+    uk: "Frame 100% ",
+    id: "Bingkai 100%"
 };
 
 var g_btn_zoom_in = {
@@ -164,7 +176,8 @@ var g_btn_zoom_in = {
     th: "ขยายออก",
     tr: "Zoom in",
     ru: "Zoom in",
-    uk: "Zoom in"
+    uk: "Zoom in",
+    id: "Perbesar"
 };
 
 var g_btn_zoom_out = {
@@ -177,7 +190,8 @@ var g_btn_zoom_out = {
     th: "ย่อลง",
     tr: "Zoom out",
     ru: "Zoom out",
-    uk: "Zoom out"
+    uk: "Zoom out",
+    id: "Perkecil"
 };
 
 var g_btn_actual = {
@@ -190,7 +204,8 @@ var g_btn_actual = {
     th: "ขนาด 100%",
     tr: "100% Scale",
     ru: "100% Scale",
-    uk: "100% Scale"
+    uk: "100% Scale",
+    id: "Skala 100%"
 };
 
 var g_btn_back = {
@@ -203,7 +218,8 @@ var g_btn_back = {
     th: "ย้อนกลับ",
     tr: "Back",
     ru: "Back",
-    uk: "Back"
+    uk: "Back",
+    id: "Kembali"
 };
 
 var g_btn_forward = {
@@ -216,7 +232,8 @@ var g_btn_forward = {
     th: "ไปข้างหน้า",
     tr: "Forward",
     ru: "Forward",
-    uk: "Forward"
+    uk: "Forward",
+    id: "Lanjut"
 };
 
 var g_btn_print_range = {
@@ -229,7 +246,8 @@ var g_btn_print_range = {
     th: "พิมพ์ส่วนที่แสดง",
     tr: "Görüntülenen alanı yazdır",
     ru: "Распечатать показанную область",
-    uk: "Роздрукувати відображену область"
+    uk: "Роздрукувати відображену область",
+    id: "Cetak area terlihat"
 };
 
 var g_btn_print = {
@@ -242,7 +260,8 @@ var g_btn_print = {
     th: "พิมพ์ทั้งหมด",
     tr: "Tümünü yazdır",
     ru: "Распечатать всё",
-    uk: "Роздрукувати все"
+    uk: "Роздрукувати все",
+    id: "Cetak semua"
 };
 
 var g_btn_new_window = {
@@ -255,7 +274,8 @@ var g_btn_new_window = {
     th: "หน้าต่างใหม่",
     tr: "New Window",
     ru: "New Window",
-    uk: "New Window"
+    uk: "New Window",
+    id: "Jendela Baru"
 };
 
 var g_btn_find = {
@@ -268,5 +288,6 @@ var g_btn_find = {
     th: "ค้นหา",
     tr: "Find",
     ru: "Find",
-    uk: "Find"
+    uk: "Find",
+    id: "Cari"
 };
