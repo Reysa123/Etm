@@ -107,7 +107,7 @@ var g_search_option = {
     th: "การจับคู่ที่ถูกต้อง",
     tr: "Perfect Matching",
     ru: "Perfect Matching",
-    uk: "Kesamaan"
+    id: "Kesamaan"
 };
 
 var g_btn_home = {
