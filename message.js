@@ -8,8 +8,8 @@ var g_lang_combobox = {
     th: "ภาษาไทย",
     tr: "Türkçe",
     ru: "Русский",
-    
-    uk: "Indonesia"
+    uk: "українська",
+    id: "Indonesia"
 };
 
 var g_wiring_search = {
